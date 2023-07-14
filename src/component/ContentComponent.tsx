@@ -33,8 +33,9 @@ const ContentComponent = () => {
 						</div>
 					</div>
 					<div className={style.image}>
-						<div className={`${style.formGroup} ${style.dropZone}`}></div>
-						<input type='file' style={{display: 'none'}} />
+						<div className={`${style.formGroup} ${style.dropZone}`}>
+							<input type='file' style={{display: 'none'}} />
+						</div>
 					</div>
 				</div>
 				<div className={style.buttons}>
